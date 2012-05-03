@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 33b2201c1812fd048afae35a4ef45c38
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - PitchBlackTexture: {fileID: 2800000, guid: 387ad35ae2c8bd14daac3af21875b133, type: 1}
+  - WhiteTexture: {fileID: 2800000, guid: 0d98ada889225fd41abfdc88af7cc0e7, type: 1}
+  - PauseTexture: {instanceID: 0}
+  - loadingMessage: {fileID: 13100000, guid: 7fedbaf06172235498809fc86ad00f8c, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
