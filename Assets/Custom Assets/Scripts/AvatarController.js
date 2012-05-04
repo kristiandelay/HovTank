@@ -11,19 +11,21 @@ private var x = 0.0;
 private var y = 0.0;  
 
 private var moveDirection : Vector3 = Vector3.zero;
+var hit : RaycastHit;
+
 
 function Update()
  {
     var controller : CharacterController = GetComponent(CharacterController);
     transform.Rotate(0, turnSpeed * Input.GetAxis("Horizontal") * Time.deltaTime, 0);
-    if (controller.isGrounded)
-     {
+   // if (controller.isGrounded)
+   //  {
         moveDirection = transform.forward * Input.GetAxis("Vertical") * speed;
         if (Input.GetButton ("Jump"))
          {
             moveDirection.y = jumpSpeed;
         }
-    }
+   // }
     // Apply gravity
     moveDirection.y -= gravity * Time.deltaTime;
     // Move the controller
@@ -34,6 +36,14 @@ function Update()
       return;
       
    y = target.eulerAngles.y; 
+ 
+ var dwn = transform.TransformDirection (Vector3.down);
+
+   if (Physics.Raycast (transform.position, dwn, hit))
+   {
+   Debug.Log(hit);
+   }
+
 
 //  // ROTATE CAMERA:
 //   var rotation:Quaternion = Quaternion.Euler(x, y, 0); 
