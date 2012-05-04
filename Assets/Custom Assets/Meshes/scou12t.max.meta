@@ -1,0 +1,2106 @@
+fileFormatVersion: 2
+guid: 7ca34a9e9d554c44298f301ae8592b94
+ModelImporter:
+  fileIDToRecycleName:
+    4300000: Box003
+    4300002: Box001
+    4300004: Box002
+    4300006: Cylinder005
+    4300008: Cylinder006
+    4300010: Box004
+    4300012: Tube006
+    4300014: Tube007
+    4300016: Cylinder007
+    4300018: Tube008
+    4300020: Tube009
+    4300022: Cylinder008
+    4300024: Tube010
+    4300026: Cylinder009
+    4300028: Cylinder010
+    4300030: Tube002
+    4300032: Cylinder003
+    4300034: Tube004
+    4300036: Tube005
+    4300038: Cylinder002
+    4300040: Tube001
+    4300042: Cylinder001
+    4300044: Tube003
+    4300046: Cylinder004
+    4300048: Tube011
+    4300050: Tube012
+    4300052: Cylinder011
+    4300054: Tube013
+    4300056: Cylinder012
+    4300058: Tube014
+    4300060: Cylinder013
+    4300062: Tube015
+    4300064: Cylinder014
+    4300066: Box005
+    4300068: Box006
+    4300070: Cylinder015
+    4300072: Cylinder016
+    4300074: Box007
+    4300076: Tube016
+    4300078: Tube017
+    4300080: Cylinder017
+    4300082: Tube018
+    4300084: Tube019
+    4300086: Cylinder018
+    4300088: Tube020
+    4300090: Cylinder019
+    4300092: Cylinder020
+    4300094: StraightStair001
+    4300096: StraightStair002
+    4300098: Box012
+    4300100: Cylinder021
+    4300102: Box013
+    4300104: Box016
+    4300106: Box024
+    4300108: Box025
+    4300110: StraightStair003
+    4300112: StraightStair004
+    4300114: Tube024
+    4300116: Tube021
+    4300118: Tube023
+    4300120: Tube031
+    4300122: Tube030
+    4300124: Tube029
+    4300126: Tube028
+    4300128: Tube027
+    4300130: Tube026
+    4300132: Tube025
+    4300134: Box026
+    4300136: Sphere001
+    4300138: Sphere002
+    4300140: Box027
+    4300142: Sphere003
+    4300144: Sphere004
+    4300146: Box028
+    4300148: Box029
+    4300150: Box023
+    4300152: Cylinder022
+    4300154: Sphere005
+    4300156: Tube033
+    4300158: Tube032
+    4300160: Tube035
+    4300162: Tube034
+    4300164: Sphere006
+    4300166: Cylinder023
+    4300168: Tube036
+    4300170: Tube037
+    4300172: Tube038
+    4300174: Tube039
+    4300176: Sphere007
+    4300178: Cylinder024
+    4300180: Tube040
+    4300182: Tube041
+    4300184: Tube042
+    4300186: Tube043
+    4300188: Sphere008
+    4300190: Cylinder025
+    4300192: Tube044
+    4300194: Tube045
+    4300196: Tube046
+    4300198: Tube047
+    4300200: Sphere009
+    4300202: Cylinder026
+    4300204: Tube048
+    4300206: Tube049
+    4300208: Tube050
+    4300210: Tube051
+    4300212: Sphere010
+    4300214: Cylinder027
+    4300216: Tube052
+    4300218: Tube053
+    4300220: Tube054
+    4300222: Tube055
+    4300224: Sphere011
+    4300226: Cylinder028
+    4300228: Tube056
+    4300230: Tube057
+    4300232: Tube058
+    4300234: Tube059
+    4300236: Sphere012
+    4300238: Cylinder029
+    4300240: Tube060
+    4300242: Tube061
+    4300244: Tube062
+    4300246: Tube063
+    4300248: Sphere013
+    4300250: Cylinder030
+    4300252: Tube064
+    4300254: Tube065
+    4300256: Tube066
+    4300258: Tube067
+    4300260: Sphere014
+    4300262: Cylinder031
+    4300264: Tube068
+    4300266: Tube069
+    4300268: Tube070
+    4300270: Tube071
+    4300272: Box030
+  serializedVersion: 10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    generateAnimations: 3
+    bakeSimulation: 0
+    splitAnimations: 1
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMesh: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  textMetaNamesToFileIDs:
+    //RootNode:
+      data:
+        first: 1
+        second: a0860100
+      data:
+        first: 4
+        second: 801a0600
+      data:
+        first: 111
+        second: 605fa900
+    Box001:
+      data:
+        first: 1
+        second: cc870100
+      data:
+        first: 4
+        second: ac1b0600
+      data:
+        first: 23
+        second: 66192300
+      data:
+        first: 33
+        second: a65b3200
+    Box002:
+      data:
+        first: 1
+        second: ca870100
+      data:
+        first: 4
+        second: aa1b0600
+      data:
+        first: 23
+        second: 64192300
+      data:
+        first: 33
+        second: a45b3200
+    Box003:
+      data:
+        first: 1
+        second: d0870100
+      data:
+        first: 4
+        second: b01b0600
+      data:
+        first: 23
+        second: 68192300
+      data:
+        first: 33
+        second: a85b3200
+    Box004:
+      data:
+        first: 1
+        second: c4870100
+      data:
+        first: 4
+        second: a41b0600
+      data:
+        first: 23
+        second: 5e192300
+      data:
+        first: 33
+        second: 9e5b3200
+    Box005:
+      data:
+        first: 1
+        second: 86870100
+      data:
+        first: 4
+        second: 661b0600
+      data:
+        first: 23
+        second: 26192300
+      data:
+        first: 33
+        second: 665b3200
+    Box006:
+      data:
+        first: 1
+        second: 84870100
+      data:
+        first: 4
+        second: 641b0600
+      data:
+        first: 23
+        second: 24192300
+      data:
+        first: 33
+        second: 645b3200
+    Box007:
+      data:
+        first: 1
+        second: 7e870100
+      data:
+        first: 4
+        second: 5e1b0600
+      data:
+        first: 23
+        second: 1e192300
+      data:
+        first: 33
+        second: 5e5b3200
+    Box012:
+      data:
+        first: 1
+        second: 68870100
+      data:
+        first: 4
+        second: 481b0600
+      data:
+        first: 23
+        second: 0a192300
+      data:
+        first: 33
+        second: 4a5b3200
+    Box013:
+      data:
+        first: 1
+        second: 62870100
+      data:
+        first: 4
+        second: 421b0600
+      data:
+        first: 23
+        second: 06192300
+      data:
+        first: 33
+        second: 465b3200
+    Box016:
+      data:
+        first: 1
+        second: 60870100
+      data:
+        first: 4
+        second: 401b0600
+      data:
+        first: 23
+        second: 04192300
+      data:
+        first: 33
+        second: 445b3200
+    Box023:
+      data:
+        first: 1
+        second: 30870100
+      data:
+        first: 4
+        second: 101b0600
+      data:
+        first: 23
+        second: da182300
+      data:
+        first: 33
+        second: 1a5b3200
+    Box024:
+      data:
+        first: 1
+        second: 5e870100
+      data:
+        first: 4
+        second: 3e1b0600
+      data:
+        first: 23
+        second: 02192300
+      data:
+        first: 33
+        second: 425b3200
+    Box025:
+      data:
+        first: 1
+        second: 5c870100
+      data:
+        first: 4
+        second: 3c1b0600
+      data:
+        first: 23
+        second: 00192300
+      data:
+        first: 33
+        second: 405b3200
+    Box026:
+      data:
+        first: 1
+        second: 44870100
+      data:
+        first: 4
+        second: 241b0600
+      data:
+        first: 23
+        second: ea182300
+      data:
+        first: 33
+        second: 2a5b3200
+    Box027:
+      data:
+        first: 1
+        second: 3c870100
+      data:
+        first: 4
+        second: 1c1b0600
+      data:
+        first: 23
+        second: e4182300
+      data:
+        first: 33
+        second: 245b3200
+    Box028:
+      data:
+        first: 1
+        second: 34870100
+      data:
+        first: 4
+        second: 141b0600
+      data:
+        first: 23
+        second: de182300
+      data:
+        first: 33
+        second: 1e5b3200
+    Box029:
+      data:
+        first: 1
+        second: 32870100
+      data:
+        first: 4
+        second: 121b0600
+      data:
+        first: 23
+        second: dc182300
+      data:
+        first: 33
+        second: 1c5b3200
+    Box030:
+      data:
+        first: 1
+        second: a2860100
+      data:
+        first: 4
+        second: 821a0600
+      data:
+        first: 23
+        second: 60182300
+      data:
+        first: 33
+        second: a05a3200
+    Cylinder001:
+      data:
+        first: 1
+        second: a0870100
+      data:
+        first: 4
+        second: 801b0600
+      data:
+        first: 23
+        second: 3e192300
+      data:
+        first: 33
+        second: 7e5b3200
+    Cylinder002:
+      data:
+        first: 1
+        second: a4870100
+      data:
+        first: 4
+        second: 841b0600
+      data:
+        first: 23
+        second: 42192300
+      data:
+        first: 33
+        second: 825b3200
+    Cylinder003:
+      data:
+        first: 1
+        second: aa870100
+      data:
+        first: 4
+        second: 8a1b0600
+      data:
+        first: 23
+        second: 48192300
+      data:
+        first: 33
+        second: 885b3200
+    Cylinder004:
+      data:
+        first: 1
+        second: 9c870100
+      data:
+        first: 4
+        second: 7c1b0600
+      data:
+        first: 23
+        second: 3a192300
+      data:
+        first: 33
+        second: 7a5b3200
+    Cylinder005:
+      data:
+        first: 1
+        second: c8870100
+      data:
+        first: 4
+        second: a81b0600
+      data:
+        first: 23
+        second: 62192300
+      data:
+        first: 33
+        second: a25b3200
+    Cylinder006:
+      data:
+        first: 1
+        second: c6870100
+      data:
+        first: 4
+        second: a61b0600
+      data:
+        first: 23
+        second: 60192300
+      data:
+        first: 33
+        second: a05b3200
+    Cylinder007:
+      data:
+        first: 1
+        second: bc870100
+      data:
+        first: 4
+        second: 9c1b0600
+      data:
+        first: 23
+        second: 58192300
+      data:
+        first: 33
+        second: 985b3200
+    Cylinder008:
+      data:
+        first: 1
+        second: b6870100
+      data:
+        first: 4
+        second: 961b0600
+      data:
+        first: 23
+        second: 52192300
+      data:
+        first: 33
+        second: 925b3200
+    Cylinder009:
+      data:
+        first: 1
+        second: b2870100
+      data:
+        first: 4
+        second: 921b0600
+      data:
+        first: 23
+        second: 4e192300
+      data:
+        first: 33
+        second: 8e5b3200
+    Cylinder010:
+      data:
+        first: 1
+        second: b0870100
+      data:
+        first: 4
+        second: 901b0600
+      data:
+        first: 23
+        second: 4c192300
+      data:
+        first: 33
+        second: 8c5b3200
+    Cylinder011:
+      data:
+        first: 1
+        second: 94870100
+      data:
+        first: 4
+        second: 741b0600
+      data:
+        first: 23
+        second: 34192300
+      data:
+        first: 33
+        second: 745b3200
+    Cylinder012:
+      data:
+        first: 1
+        second: 90870100
+      data:
+        first: 4
+        second: 701b0600
+      data:
+        first: 23
+        second: 30192300
+      data:
+        first: 33
+        second: 705b3200
+    Cylinder013:
+      data:
+        first: 1
+        second: 8c870100
+      data:
+        first: 4
+        second: 6c1b0600
+      data:
+        first: 23
+        second: 2c192300
+      data:
+        first: 33
+        second: 6c5b3200
+    Cylinder014:
+      data:
+        first: 1
+        second: 88870100
+      data:
+        first: 4
+        second: 681b0600
+      data:
+        first: 23
+        second: 28192300
+      data:
+        first: 33
+        second: 685b3200
+    Cylinder015:
+      data:
+        first: 1
+        second: 82870100
+      data:
+        first: 4
+        second: 621b0600
+      data:
+        first: 23
+        second: 22192300
+      data:
+        first: 33
+        second: 625b3200
+    Cylinder016:
+      data:
+        first: 1
+        second: 80870100
+      data:
+        first: 4
+        second: 601b0600
+      data:
+        first: 23
+        second: 20192300
+      data:
+        first: 33
+        second: 605b3200
+    Cylinder017:
+      data:
+        first: 1
+        second: 76870100
+      data:
+        first: 4
+        second: 561b0600
+      data:
+        first: 23
+        second: 18192300
+      data:
+        first: 33
+        second: 585b3200
+    Cylinder018:
+      data:
+        first: 1
+        second: 70870100
+      data:
+        first: 4
+        second: 501b0600
+      data:
+        first: 23
+        second: 12192300
+      data:
+        first: 33
+        second: 525b3200
+    Cylinder019:
+      data:
+        first: 1
+        second: 6c870100
+      data:
+        first: 4
+        second: 4c1b0600
+      data:
+        first: 23
+        second: 0e192300
+      data:
+        first: 33
+        second: 4e5b3200
+    Cylinder020:
+      data:
+        first: 1
+        second: 6a870100
+      data:
+        first: 4
+        second: 4a1b0600
+      data:
+        first: 23
+        second: 0c192300
+      data:
+        first: 33
+        second: 4c5b3200
+    Cylinder021:
+      data:
+        first: 1
+        second: 64870100
+      data:
+        first: 4
+        second: 441b0600
+      data:
+        first: 23
+        second: 08192300
+      data:
+        first: 33
+        second: 485b3200
+    Cylinder022:
+      data:
+        first: 1
+        second: 2c870100
+      data:
+        first: 4
+        second: 0c1b0600
+      data:
+        first: 23
+        second: d8182300
+      data:
+        first: 33
+        second: 185b3200
+    Cylinder023:
+      data:
+        first: 1
+        second: 1c870100
+      data:
+        first: 4
+        second: fc1a0600
+      data:
+        first: 23
+        second: ca182300
+      data:
+        first: 33
+        second: 0a5b3200
+    Cylinder024:
+      data:
+        first: 1
+        second: 0e870100
+      data:
+        first: 4
+        second: ee1a0600
+      data:
+        first: 23
+        second: be182300
+      data:
+        first: 33
+        second: fe5a3200
+    Cylinder025:
+      data:
+        first: 1
+        second: 00870100
+      data:
+        first: 4
+        second: e01a0600
+      data:
+        first: 23
+        second: b2182300
+      data:
+        first: 33
+        second: f25a3200
+    Cylinder026:
+      data:
+        first: 1
+        second: f2860100
+      data:
+        first: 4
+        second: d21a0600
+      data:
+        first: 23
+        second: a6182300
+      data:
+        first: 33
+        second: e65a3200
+    Cylinder027:
+      data:
+        first: 1
+        second: e4860100
+      data:
+        first: 4
+        second: c41a0600
+      data:
+        first: 23
+        second: 9a182300
+      data:
+        first: 33
+        second: da5a3200
+    Cylinder028:
+      data:
+        first: 1
+        second: d6860100
+      data:
+        first: 4
+        second: b61a0600
+      data:
+        first: 23
+        second: 8e182300
+      data:
+        first: 33
+        second: ce5a3200
+    Cylinder029:
+      data:
+        first: 1
+        second: c8860100
+      data:
+        first: 4
+        second: a81a0600
+      data:
+        first: 23
+        second: 82182300
+      data:
+        first: 33
+        second: c25a3200
+    Cylinder030:
+      data:
+        first: 1
+        second: ba860100
+      data:
+        first: 4
+        second: 9a1a0600
+      data:
+        first: 23
+        second: 76182300
+      data:
+        first: 33
+        second: b65a3200
+    Cylinder031:
+      data:
+        first: 1
+        second: ac860100
+      data:
+        first: 4
+        second: 8c1a0600
+      data:
+        first: 23
+        second: 6a182300
+      data:
+        first: 33
+        second: aa5a3200
+    Group001:
+      data:
+        first: 1
+        second: 5a870100
+      data:
+        first: 4
+        second: 3a1b0600
+    Sphere001:
+      data:
+        first: 1
+        second: 40870100
+      data:
+        first: 4
+        second: 201b0600
+      data:
+        first: 23
+        second: e8182300
+      data:
+        first: 33
+        second: 285b3200
+    Sphere002:
+      data:
+        first: 1
+        second: 3e870100
+      data:
+        first: 4
+        second: 1e1b0600
+      data:
+        first: 23
+        second: e6182300
+      data:
+        first: 33
+        second: 265b3200
+    Sphere003:
+      data:
+        first: 1
+        second: 38870100
+      data:
+        first: 4
+        second: 181b0600
+      data:
+        first: 23
+        second: e2182300
+      data:
+        first: 33
+        second: 225b3200
+    Sphere004:
+      data:
+        first: 1
+        second: 36870100
+      data:
+        first: 4
+        second: 161b0600
+      data:
+        first: 23
+        second: e0182300
+      data:
+        first: 33
+        second: 205b3200
+    Sphere005:
+      data:
+        first: 1
+        second: 2a870100
+      data:
+        first: 4
+        second: 0a1b0600
+      data:
+        first: 23
+        second: d6182300
+      data:
+        first: 33
+        second: 165b3200
+    Sphere006:
+      data:
+        first: 1
+        second: 1e870100
+      data:
+        first: 4
+        second: fe1a0600
+      data:
+        first: 23
+        second: cc182300
+      data:
+        first: 33
+        second: 0c5b3200
+    Sphere007:
+      data:
+        first: 1
+        second: 10870100
+      data:
+        first: 4
+        second: f01a0600
+      data:
+        first: 23
+        second: c0182300
+      data:
+        first: 33
+        second: 005b3200
+    Sphere008:
+      data:
+        first: 1
+        second: 02870100
+      data:
+        first: 4
+        second: e21a0600
+      data:
+        first: 23
+        second: b4182300
+      data:
+        first: 33
+        second: f45a3200
+    Sphere009:
+      data:
+        first: 1
+        second: f4860100
+      data:
+        first: 4
+        second: d41a0600
+      data:
+        first: 23
+        second: a8182300
+      data:
+        first: 33
+        second: e85a3200
+    Sphere010:
+      data:
+        first: 1
+        second: e6860100
+      data:
+        first: 4
+        second: c61a0600
+      data:
+        first: 23
+        second: 9c182300
+      data:
+        first: 33
+        second: dc5a3200
+    Sphere011:
+      data:
+        first: 1
+        second: d8860100
+      data:
+        first: 4
+        second: b81a0600
+      data:
+        first: 23
+        second: 90182300
+      data:
+        first: 33
+        second: d05a3200
+    Sphere012:
+      data:
+        first: 1
+        second: ca860100
+      data:
+        first: 4
+        second: aa1a0600
+      data:
+        first: 23
+        second: 84182300
+      data:
+        first: 33
+        second: c45a3200
+    Sphere013:
+      data:
+        first: 1
+        second: bc860100
+      data:
+        first: 4
+        second: 9c1a0600
+      data:
+        first: 23
+        second: 78182300
+      data:
+        first: 33
+        second: b85a3200
+    Sphere014:
+      data:
+        first: 1
+        second: ae860100
+      data:
+        first: 4
+        second: 8e1a0600
+      data:
+        first: 23
+        second: 6c182300
+      data:
+        first: 33
+        second: ac5a3200
+    StraightStair001:
+      data:
+        first: 1
+        second: d8870100
+      data:
+        first: 4
+        second: b81b0600
+      data:
+        first: 23
+        second: 70192300
+      data:
+        first: 33
+        second: b05b3200
+    StraightStair002:
+      data:
+        first: 1
+        second: d6870100
+      data:
+        first: 4
+        second: b61b0600
+      data:
+        first: 23
+        second: 6e192300
+      data:
+        first: 33
+        second: ae5b3200
+    StraightStair003:
+      data:
+        first: 1
+        second: d4870100
+      data:
+        first: 4
+        second: b41b0600
+      data:
+        first: 23
+        second: 6c192300
+      data:
+        first: 33
+        second: ac5b3200
+    StraightStair004:
+      data:
+        first: 1
+        second: d2870100
+      data:
+        first: 4
+        second: b21b0600
+      data:
+        first: 23
+        second: 6a192300
+      data:
+        first: 33
+        second: aa5b3200
+    Tube001:
+      data:
+        first: 1
+        second: a2870100
+      data:
+        first: 4
+        second: 821b0600
+      data:
+        first: 23
+        second: 40192300
+      data:
+        first: 33
+        second: 805b3200
+    Tube002:
+      data:
+        first: 1
+        second: ac870100
+      data:
+        first: 4
+        second: 8c1b0600
+      data:
+        first: 23
+        second: 4a192300
+      data:
+        first: 33
+        second: 8a5b3200
+    Tube003:
+      data:
+        first: 1
+        second: 9e870100
+      data:
+        first: 4
+        second: 7e1b0600
+      data:
+        first: 23
+        second: 3c192300
+      data:
+        first: 33
+        second: 7c5b3200
+    Tube004:
+      data:
+        first: 1
+        second: a8870100
+      data:
+        first: 4
+        second: 881b0600
+      data:
+        first: 23
+        second: 46192300
+      data:
+        first: 33
+        second: 865b3200
+    Tube005:
+      data:
+        first: 1
+        second: a6870100
+      data:
+        first: 4
+        second: 861b0600
+      data:
+        first: 23
+        second: 44192300
+      data:
+        first: 33
+        second: 845b3200
+    Tube006:
+      data:
+        first: 1
+        second: c0870100
+      data:
+        first: 4
+        second: a01b0600
+      data:
+        first: 23
+        second: 5c192300
+      data:
+        first: 33
+        second: 9c5b3200
+    Tube007:
+      data:
+        first: 1
+        second: be870100
+      data:
+        first: 4
+        second: 9e1b0600
+      data:
+        first: 23
+        second: 5a192300
+      data:
+        first: 33
+        second: 9a5b3200
+    Tube008:
+      data:
+        first: 1
+        second: ba870100
+      data:
+        first: 4
+        second: 9a1b0600
+      data:
+        first: 23
+        second: 56192300
+      data:
+        first: 33
+        second: 965b3200
+    Tube009:
+      data:
+        first: 1
+        second: b8870100
+      data:
+        first: 4
+        second: 981b0600
+      data:
+        first: 23
+        second: 54192300
+      data:
+        first: 33
+        second: 945b3200
+    Tube010:
+      data:
+        first: 1
+        second: b4870100
+      data:
+        first: 4
+        second: 941b0600
+      data:
+        first: 23
+        second: 50192300
+      data:
+        first: 33
+        second: 905b3200
+    Tube011:
+      data:
+        first: 1
+        second: 98870100
+      data:
+        first: 4
+        second: 781b0600
+      data:
+        first: 23
+        second: 38192300
+      data:
+        first: 33
+        second: 785b3200
+    Tube012:
+      data:
+        first: 1
+        second: 96870100
+      data:
+        first: 4
+        second: 761b0600
+      data:
+        first: 23
+        second: 36192300
+      data:
+        first: 33
+        second: 765b3200
+    Tube013:
+      data:
+        first: 1
+        second: 92870100
+      data:
+        first: 4
+        second: 721b0600
+      data:
+        first: 23
+        second: 32192300
+      data:
+        first: 33
+        second: 725b3200
+    Tube014:
+      data:
+        first: 1
+        second: 8e870100
+      data:
+        first: 4
+        second: 6e1b0600
+      data:
+        first: 23
+        second: 2e192300
+      data:
+        first: 33
+        second: 6e5b3200
+    Tube015:
+      data:
+        first: 1
+        second: 8a870100
+      data:
+        first: 4
+        second: 6a1b0600
+      data:
+        first: 23
+        second: 2a192300
+      data:
+        first: 33
+        second: 6a5b3200
+    Tube016:
+      data:
+        first: 1
+        second: 7a870100
+      data:
+        first: 4
+        second: 5a1b0600
+      data:
+        first: 23
+        second: 1c192300
+      data:
+        first: 33
+        second: 5c5b3200
+    Tube017:
+      data:
+        first: 1
+        second: 78870100
+      data:
+        first: 4
+        second: 581b0600
+      data:
+        first: 23
+        second: 1a192300
+      data:
+        first: 33
+        second: 5a5b3200
+    Tube018:
+      data:
+        first: 1
+        second: 74870100
+      data:
+        first: 4
+        second: 541b0600
+      data:
+        first: 23
+        second: 16192300
+      data:
+        first: 33
+        second: 565b3200
+    Tube019:
+      data:
+        first: 1
+        second: 72870100
+      data:
+        first: 4
+        second: 521b0600
+      data:
+        first: 23
+        second: 14192300
+      data:
+        first: 33
+        second: 545b3200
+    Tube020:
+      data:
+        first: 1
+        second: 6e870100
+      data:
+        first: 4
+        second: 4e1b0600
+      data:
+        first: 23
+        second: 10192300
+      data:
+        first: 33
+        second: 505b3200
+    Tube021:
+      data:
+        first: 1
+        second: 56870100
+      data:
+        first: 4
+        second: 361b0600
+      data:
+        first: 23
+        second: fc182300
+      data:
+        first: 33
+        second: 3c5b3200
+    Tube023:
+      data:
+        first: 1
+        second: 54870100
+      data:
+        first: 4
+        second: 341b0600
+      data:
+        first: 23
+        second: fa182300
+      data:
+        first: 33
+        second: 3a5b3200
+    Tube024:
+      data:
+        first: 1
+        second: 58870100
+      data:
+        first: 4
+        second: 381b0600
+      data:
+        first: 23
+        second: fe182300
+      data:
+        first: 33
+        second: 3e5b3200
+    Tube025:
+      data:
+        first: 1
+        second: 46870100
+      data:
+        first: 4
+        second: 261b0600
+      data:
+        first: 23
+        second: ec182300
+      data:
+        first: 33
+        second: 2c5b3200
+    Tube026:
+      data:
+        first: 1
+        second: 48870100
+      data:
+        first: 4
+        second: 281b0600
+      data:
+        first: 23
+        second: ee182300
+      data:
+        first: 33
+        second: 2e5b3200
+    Tube027:
+      data:
+        first: 1
+        second: 4a870100
+      data:
+        first: 4
+        second: 2a1b0600
+      data:
+        first: 23
+        second: f0182300
+      data:
+        first: 33
+        second: 305b3200
+    Tube028:
+      data:
+        first: 1
+        second: 4c870100
+      data:
+        first: 4
+        second: 2c1b0600
+      data:
+        first: 23
+        second: f2182300
+      data:
+        first: 33
+        second: 325b3200
+    Tube029:
+      data:
+        first: 1
+        second: 4e870100
+      data:
+        first: 4
+        second: 2e1b0600
+      data:
+        first: 23
+        second: f4182300
+      data:
+        first: 33
+        second: 345b3200
+    Tube030:
+      data:
+        first: 1
+        second: 50870100
+      data:
+        first: 4
+        second: 301b0600
+      data:
+        first: 23
+        second: f6182300
+      data:
+        first: 33
+        second: 365b3200
+    Tube031:
+      data:
+        first: 1
+        second: 52870100
+      data:
+        first: 4
+        second: 321b0600
+      data:
+        first: 23
+        second: f8182300
+      data:
+        first: 33
+        second: 385b3200
+    Tube032:
+      data:
+        first: 1
+        second: 26870100
+      data:
+        first: 4
+        second: 061b0600
+      data:
+        first: 23
+        second: d2182300
+      data:
+        first: 33
+        second: 125b3200
+    Tube033:
+      data:
+        first: 1
+        second: 28870100
+      data:
+        first: 4
+        second: 081b0600
+      data:
+        first: 23
+        second: d4182300
+      data:
+        first: 33
+        second: 145b3200
+    Tube034:
+      data:
+        first: 1
+        second: 22870100
+      data:
+        first: 4
+        second: 021b0600
+      data:
+        first: 23
+        second: ce182300
+      data:
+        first: 33
+        second: 0e5b3200
+    Tube035:
+      data:
+        first: 1
+        second: 24870100
+      data:
+        first: 4
+        second: 041b0600
+      data:
+        first: 23
+        second: d0182300
+      data:
+        first: 33
+        second: 105b3200
+    Tube036:
+      data:
+        first: 1
+        second: 1a870100
+      data:
+        first: 4
+        second: fa1a0600
+      data:
+        first: 23
+        second: c8182300
+      data:
+        first: 33
+        second: 085b3200
+    Tube037:
+      data:
+        first: 1
+        second: 18870100
+      data:
+        first: 4
+        second: f81a0600
+      data:
+        first: 23
+        second: c6182300
+      data:
+        first: 33
+        second: 065b3200
+    Tube038:
+      data:
+        first: 1
+        second: 16870100
+      data:
+        first: 4
+        second: f61a0600
+      data:
+        first: 23
+        second: c4182300
+      data:
+        first: 33
+        second: 045b3200
+    Tube039:
+      data:
+        first: 1
+        second: 14870100
+      data:
+        first: 4
+        second: f41a0600
+      data:
+        first: 23
+        second: c2182300
+      data:
+        first: 33
+        second: 025b3200
+    Tube040:
+      data:
+        first: 1
+        second: 0c870100
+      data:
+        first: 4
+        second: ec1a0600
+      data:
+        first: 23
+        second: bc182300
+      data:
+        first: 33
+        second: fc5a3200
+    Tube041:
+      data:
+        first: 1
+        second: 0a870100
+      data:
+        first: 4
+        second: ea1a0600
+      data:
+        first: 23
+        second: ba182300
+      data:
+        first: 33
+        second: fa5a3200
+    Tube042:
+      data:
+        first: 1
+        second: 08870100
+      data:
+        first: 4
+        second: e81a0600
+      data:
+        first: 23
+        second: b8182300
+      data:
+        first: 33
+        second: f85a3200
+    Tube043:
+      data:
+        first: 1
+        second: 06870100
+      data:
+        first: 4
+        second: e61a0600
+      data:
+        first: 23
+        second: b6182300
+      data:
+        first: 33
+        second: f65a3200
+    Tube044:
+      data:
+        first: 1
+        second: fe860100
+      data:
+        first: 4
+        second: de1a0600
+      data:
+        first: 23
+        second: b0182300
+      data:
+        first: 33
+        second: f05a3200
+    Tube045:
+      data:
+        first: 1
+        second: fc860100
+      data:
+        first: 4
+        second: dc1a0600
+      data:
+        first: 23
+        second: ae182300
+      data:
+        first: 33
+        second: ee5a3200
+    Tube046:
+      data:
+        first: 1
+        second: fa860100
+      data:
+        first: 4
+        second: da1a0600
+      data:
+        first: 23
+        second: ac182300
+      data:
+        first: 33
+        second: ec5a3200
+    Tube047:
+      data:
+        first: 1
+        second: f8860100
+      data:
+        first: 4
+        second: d81a0600
+      data:
+        first: 23
+        second: aa182300
+      data:
+        first: 33
+        second: ea5a3200
+    Tube048:
+      data:
+        first: 1
+        second: f0860100
+      data:
+        first: 4
+        second: d01a0600
+      data:
+        first: 23
+        second: a4182300
+      data:
+        first: 33
+        second: e45a3200
+    Tube049:
+      data:
+        first: 1
+        second: ee860100
+      data:
+        first: 4
+        second: ce1a0600
+      data:
+        first: 23
+        second: a2182300
+      data:
+        first: 33
+        second: e25a3200
+    Tube050:
+      data:
+        first: 1
+        second: ec860100
+      data:
+        first: 4
+        second: cc1a0600
+      data:
+        first: 23
+        second: a0182300
+      data:
+        first: 33
+        second: e05a3200
+    Tube051:
+      data:
+        first: 1
+        second: ea860100
+      data:
+        first: 4
+        second: ca1a0600
+      data:
+        first: 23
+        second: 9e182300
+      data:
+        first: 33
+        second: de5a3200
+    Tube052:
+      data:
+        first: 1
+        second: e2860100
+      data:
+        first: 4
+        second: c21a0600
+      data:
+        first: 23
+        second: 98182300
+      data:
+        first: 33
+        second: d85a3200
+    Tube053:
+      data:
+        first: 1
+        second: e0860100
+      data:
+        first: 4
+        second: c01a0600
+      data:
+        first: 23
+        second: 96182300
+      data:
+        first: 33
+        second: d65a3200
+    Tube054:
+      data:
+        first: 1
+        second: de860100
+      data:
+        first: 4
+        second: be1a0600
+      data:
+        first: 23
+        second: 94182300
+      data:
+        first: 33
+        second: d45a3200
+    Tube055:
+      data:
+        first: 1
+        second: dc860100
+      data:
+        first: 4
+        second: bc1a0600
+      data:
+        first: 23
+        second: 92182300
+      data:
+        first: 33
+        second: d25a3200
+    Tube056:
+      data:
+        first: 1
+        second: d4860100
+      data:
+        first: 4
+        second: b41a0600
+      data:
+        first: 23
+        second: 8c182300
+      data:
+        first: 33
+        second: cc5a3200
+    Tube057:
+      data:
+        first: 1
+        second: d2860100
+      data:
+        first: 4
+        second: b21a0600
+      data:
+        first: 23
+        second: 8a182300
+      data:
+        first: 33
+        second: ca5a3200
+    Tube058:
+      data:
+        first: 1
+        second: d0860100
+      data:
+        first: 4
+        second: b01a0600
+      data:
+        first: 23
+        second: 88182300
+      data:
+        first: 33
+        second: c85a3200
+    Tube059:
+      data:
+        first: 1
+        second: ce860100
+      data:
+        first: 4
+        second: ae1a0600
+      data:
+        first: 23
+        second: 86182300
+      data:
+        first: 33
+        second: c65a3200
+    Tube060:
+      data:
+        first: 1
+        second: c6860100
+      data:
+        first: 4
+        second: a61a0600
+      data:
+        first: 23
+        second: 80182300
+      data:
+        first: 33
+        second: c05a3200
+    Tube061:
+      data:
+        first: 1
+        second: c4860100
+      data:
+        first: 4
+        second: a41a0600
+      data:
+        first: 23
+        second: 7e182300
+      data:
+        first: 33
+        second: be5a3200
+    Tube062:
+      data:
+        first: 1
+        second: c2860100
+      data:
+        first: 4
+        second: a21a0600
+      data:
+        first: 23
+        second: 7c182300
+      data:
+        first: 33
+        second: bc5a3200
+    Tube063:
+      data:
+        first: 1
+        second: c0860100
+      data:
+        first: 4
+        second: a01a0600
+      data:
+        first: 23
+        second: 7a182300
+      data:
+        first: 33
+        second: ba5a3200
+    Tube064:
+      data:
+        first: 1
+        second: b8860100
+      data:
+        first: 4
+        second: 981a0600
+      data:
+        first: 23
+        second: 74182300
+      data:
+        first: 33
+        second: b45a3200
+    Tube065:
+      data:
+        first: 1
+        second: b6860100
+      data:
+        first: 4
+        second: 961a0600
+      data:
+        first: 23
+        second: 72182300
+      data:
+        first: 33
+        second: b25a3200
+    Tube066:
+      data:
+        first: 1
+        second: b4860100
+      data:
+        first: 4
+        second: 941a0600
+      data:
+        first: 23
+        second: 70182300
+      data:
+        first: 33
+        second: b05a3200
+    Tube067:
+      data:
+        first: 1
+        second: b2860100
+      data:
+        first: 4
+        second: 921a0600
+      data:
+        first: 23
+        second: 6e182300
+      data:
+        first: 33
+        second: ae5a3200
+    Tube068:
+      data:
+        first: 1
+        second: aa860100
+      data:
+        first: 4
+        second: 8a1a0600
+      data:
+        first: 23
+        second: 68182300
+      data:
+        first: 33
+        second: a85a3200
+    Tube069:
+      data:
+        first: 1
+        second: a8860100
+      data:
+        first: 4
+        second: 881a0600
+      data:
+        first: 23
+        second: 66182300
+      data:
+        first: 33
+        second: a65a3200
+    Tube070:
+      data:
+        first: 1
+        second: a6860100
+      data:
+        first: 4
+        second: 861a0600
+      data:
+        first: 23
+        second: 64182300
+      data:
+        first: 33
+        second: a45a3200
+    Tube071:
+      data:
+        first: 1
+        second: a4860100
+      data:
+        first: 4
+        second: 841a0600
+      data:
+        first: 23
+        second: 62182300
+      data:
+        first: 33
+        second: a25a3200
+    barrelAssembly:
+      data:
+        first: 1
+        second: ce870100
+      data:
+        first: 4
+        second: ae1b0600
+    barrelAssembly001:
+      data:
+        first: 1
+        second: da870100
+      data:
+        first: 4
+        second: ba1b0600
+    barrelGroup:
+      data:
+        first: 1
+        second: ae870100
+      data:
+        first: 4
+        second: 8e1b0600
+    barrelGroup002:
+      data:
+        first: 1
+        second: c2870100
+      data:
+        first: 4
+        second: a21b0600
+    barrelGroup003:
+      data:
+        first: 1
+        second: 9a870100
+      data:
+        first: 4
+        second: 7a1b0600
+    barrelGroup004:
+      data:
+        first: 1
+        second: 7c870100
+      data:
+        first: 4
+        second: 5c1b0600
+    lights:
+      data:
+        first: 1
+        second: 42870100
+      data:
+        first: 4
+        second: 221b0600
+    lights001:
+      data:
+        first: 1
+        second: 3a870100
+      data:
+        first: 4
+        second: 1a1b0600
+    maglev:
+      data:
+        first: 1
+        second: 2e870100
+      data:
+        first: 4
+        second: 0e1b0600
+    maglev001:
+      data:
+        first: 1
+        second: 20870100
+      data:
+        first: 4
+        second: 001b0600
+    maglev002:
+      data:
+        first: 1
+        second: 12870100
+      data:
+        first: 4
+        second: f21a0600
+    maglev003:
+      data:
+        first: 1
+        second: 04870100
+      data:
+        first: 4
+        second: e41a0600
+    maglev004:
+      data:
+        first: 1
+        second: f6860100
+      data:
+        first: 4
+        second: d61a0600
+    maglev005:
+      data:
+        first: 1
+        second: e8860100
+      data:
+        first: 4
+        second: c81a0600
+    maglev006:
+      data:
+        first: 1
+        second: da860100
+      data:
+        first: 4
+        second: ba1a0600
+    maglev007:
+      data:
+        first: 1
+        second: cc860100
+      data:
+        first: 4
+        second: ac1a0600
+    maglev008:
+      data:
+        first: 1
+        second: be860100
+      data:
+        first: 4
+        second: 9e1a0600
+    maglev009:
+      data:
+        first: 1
+        second: b0860100
+      data:
+        first: 4
+        second: 901a0600
+    topsensor:
+      data:
+        first: 1
+        second: 66870100
+      data:
+        first: 4
+        second: 461b0600
