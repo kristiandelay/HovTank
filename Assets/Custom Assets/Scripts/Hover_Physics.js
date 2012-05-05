@@ -114,10 +114,10 @@ function InitializePhysics()
     
     boxCollider = body.AddComponent(BoxCollider);    
     boxDim = Vector3(boxCollider.size.x * body.transform.localScale.x, boxCollider.size.y * body.transform.localScale.y, boxCollider.size.z * body.transform.localScale.z) * stability;    
-    cornersPoint[0] = Vector3(transform.position.x-boxDim.x/2, transform.position.y -boxDim.y/2 , transform.position.z +boxDim.z/2);    
-    cornersPoint[1] = Vector3(boxDim.x/2 + transform.position.x, transform.position.y -boxDim.y/2 , transform.position.z + boxDim.z/2);    
-    cornersPoint[2] = Vector3(boxDim.x/2 + transform.position.x, transform.position.y -boxDim.y/2 , transform.position.z - boxDim.z/2);    
-    cornersPoint[3] = Vector3(transform.position.x-boxDim.x/2, transform.position.y -boxDim.y/2 , transform.position.z - boxDim.z/2);   
+    cornersPoint[0] = Vector3(transform.position.x-boxDim.x, transform.position.y -boxDim.y/2 , transform.position.z +boxDim.z);    
+    cornersPoint[1] = Vector3(boxDim.x + transform.position.x, transform.position.y -boxDim.y/2 , transform.position.z + boxDim.z);    
+    cornersPoint[2] = Vector3(boxDim.x + transform.position.x, transform.position.y -boxDim.y/2 , transform.position.z - boxDim.z);    
+    cornersPoint[3] = Vector3(transform.position.x-boxDim.x, transform.position.y -boxDim.y/2 , transform.position.z - boxDim.z);   
     cornersPoint[4] = transform.position;    
     
 	Debug.Log(String.Format("Box size Width: {0}", boxCollider.size.x));
