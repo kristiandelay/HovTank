@@ -6,3 +6,6 @@ Temp
 *.exe
 *.vcproject
 *.sln
+*.csproj
+*.pidb
+*.unityproj
