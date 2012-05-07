@@ -6,7 +6,18 @@ var landingPower:float;
 var jumpingPower:float;
 var hoverHeight:float;
 var stability:float = 1;
+
 var body:GameObject;
+var barrel:GameObject;
+var turret:GameObject;
+var target:GameObject;
+var turretMuzzlePoint:GameObject;
+var turretGunProjectile:Rigidbody;
+
+var tankHealth:float = 100;
+var tankShieldTotal:float = 100;
+var tankSheildFront:float = 100;
+var tankShieldBack:float = 100;
 
 public var speedUpdate:float;
 
@@ -24,6 +35,18 @@ private var lastPosition:Vector3;
 private var distance:float;
 private var average:Vector3;
 
+private var turretRotationForce:float = 83.5; // 53.5
+private var barrelRotationForce:float = 43.5; // 53.5
+private var barrelMinRotation:float = 20.0;
+private var barrelMaxRotation:float = 330.0;
+private var maximumFireRange:float = 80.0;
+private var maximumEnemyDetectionRange:float = 130.0;
+
+function Start()
+{
+	
+}
+
 function Awake()
 {
     InitializePhysics(); 
@@ -31,7 +54,48 @@ function Awake()
 
 function Update()
 {    
-    CalculateSpeed();    
+    CalculateSpeed(); 
+    
+       // If enemy is set, turn turret
+	if (target) {
+
+		// Rotation (Yaw) of the turret
+		var targetVectorTurret : Vector3 = target.transform.position - turret.transform.position;
+		var localTurretHeading : Vector3 = turret.transform.InverseTransformDirection(targetVectorTurret);
+		var requiredYaw : float = Mathf.Rad2Deg * Mathf.Atan2(localTurretHeading.x, localTurretHeading.z);
+		//var requiredPitch : float = Vector3.Angle(Vector3.up, localTurretHeading) - 90.0;
+			//var deltaYaw = (requiredYaw / 10) * turretRotationForce * Time.deltaTime;
+			//deltaYaw = Mathf.Clamp(deltaYaw, -2.0, 2.0);
+		var deltaYaw = Mathf.Clamp((requiredYaw / 10) * turretRotationForce, -45.0, 45.0) * Time.deltaTime;
+		turret.transform.Rotate(Vector3.up, deltaYaw, Space.Self);
+		
+		// Pitch of the barrel
+		var targetVectorBarrel : Vector3 = target.transform.position - barrel.transform.position;
+		var localBarrelHeading : Vector3 = barrel.transform.InverseTransformDirection(targetVectorBarrel);
+		var requiredPitch : float = Vector3.Angle(Vector3.up, localBarrelHeading) - 90.0;
+		
+		var deltaPitch = Mathf.Clamp((requiredPitch / 10) * barrelRotationForce, -45.0, 45.0) * Time.deltaTime;
+		//print("requiredPitch: " + requiredPitch + " barrel.x: " + barrel.transform.localEulerAngles.x + " " + deltaPitch);
+		//if (barrel.transform.localEulerAngles.x > 20 && barrel.transform.localEulerAngles.x < 340) {
+		//	deltaPitch = 0;
+		//}
+		barrel.transform.Rotate(Vector3.right, deltaPitch, Space.Self);
+		
+		// Check pitch bounds
+		var pitchBounds : Vector3 = barrel.transform.localEulerAngles;
+		//print("pitchBounds: " + pitchBounds);
+		if (barrel.transform.localEulerAngles.x > barrelMinRotation && barrel.transform.localEulerAngles.x < 180) {
+			pitchBounds.x = barrelMinRotation;
+		} else if (barrel.transform.localEulerAngles.x < barrelMaxRotation && barrel.transform.localEulerAngles.x > 180) {
+			pitchBounds.x = barrelMaxRotation;
+		}		
+		barrel.transform.localEulerAngles = pitchBounds;
+		
+		// Draw Debug Ray
+		var forward = barrel.transform.TransformDirection(Vector3.forward) * 100;
+		Debug.DrawRay (barrel.transform.position, Vector3.forward * 100, Color.green);
+		Debug.DrawRay (barrel.transform.position, barrel.transform.eulerAngles, Color.green);
+	}   
 }
 
 function FixedUpdate()
@@ -86,17 +150,14 @@ function FixedUpdate()
         
         var steerForce:float = Input.GetAxis("Horizontal") * steerPower;       
         rigidbody.AddTorque(transform.up * steerForce);   
+        
+        // Turret movement
+        if (Input.GetKeyDown (KeyCode.Space))
+        {
+    	    print ("space key was pressed");
+        }
+        
     }
-}
-
-function OnDrawGizmos() 
-{
-	// debuggin corners positions.
-	if(corners[0] != null) { Gizmos.DrawWireSphere(corners[0].position, 1); }
-	if(corners[1] != null) { Gizmos.DrawWireSphere(corners[1].position, 1); }
-	if(corners[2] != null) { Gizmos.DrawWireSphere(corners[2].position, 1); }
-	if(corners[3] != null) { Gizmos.DrawWireSphere(corners[3].position, 1); }
-	if(corners[4] != null) { Gizmos.DrawWireSphere(corners[4].position, 1); }
 }
 
 function CalculateSpeed()
@@ -137,4 +198,55 @@ function InitializePhysics()
     
     cornersPoint = null;    
     physicsSetup = true;    
+}
+
+////////////////////////////////////////////////////////////////////////////////////
+//// Game Play
+////////////////////////////////////////////////////////////////////////////////////
+
+// set target
+function SetTarget(newTarget : UnityEngine.GameObject)
+{	
+	print("old target: " + target);
+	target = newTarget;
+	print("new target: " + target);
+}
+
+function isTargetInFiringArc()
+{
+
+}
+
+////////////////////////////////////////////////////////////////////////////////////
+//// Networking Code here
+////////////////////////////////////////////////////////////////////////////////////
+
+// TODO: 
+@RPC
+function recordDamage (myTankHealth : float, info : NetworkMessageInfo)
+{
+	// 
+	tankHealth -= 30;
+}
+
+////////////////////////////////////////////////////////////////////////////////////
+//// Debug
+////////////////////////////////////////////////////////////////////////////////////
+
+function OnCollisionStay(collision : Collision) 
+{	
+    // Debug-draw all contact points and normals
+    for (var contact : ContactPoint in collision.contacts) {
+        Debug.DrawRay(contact.point, contact.normal, Color.white);
+    }
+}
+
+function OnDrawGizmos() 
+{
+	// debuggin hover platform positions.
+	if(corners[0] != null) { Gizmos.DrawWireSphere(corners[0].position, 1); }
+	if(corners[1] != null) { Gizmos.DrawWireSphere(corners[1].position, 1); }
+	if(corners[2] != null) { Gizmos.DrawWireSphere(corners[2].position, 1); }
+	if(corners[3] != null) { Gizmos.DrawWireSphere(corners[3].position, 1); }
+	if(corners[4] != null) { Gizmos.DrawWireSphere(corners[4].position, 1); }
 }
