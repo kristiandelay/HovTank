@@ -1,21 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MasterCamera\MC Xtra Files\MultiplayerTracker.js">
-    <Files>
-      <File FileName="Assets\Custom Assets\Scripts\Networking\NetworkRigidbody.cs" Line="26" Column="3" />
-      <File FileName="Assets\MasterCamera\MC Xtra Files\MultiplayerTracker.js" Line="1" Column="1" />
-      <File FileName="Assets\Custom Assets\Scripts\Hover_Physics.js" Line="1" Column="1" />
-      <File FileName="Assets\Custom Assets\Scripts\Networking\ConnectGuiMasterServer.js" Line="32" Column="2" />
-      <File FileName="Assets\Custom Assets\Scripts\Networking\NetworkLevelLoad.js" Line="1" Column="1" />
-      <File FileName="Assets\Custom Assets\Scripts\AvatarController.js" Line="1" Column="1" />
-      <File FileName="Assets\Custom Assets\Scripts\Networking\TankSpawnPrefab.js" Line="1" Column="1" />
-      <File FileName="Assets\Custom Assets\Scripts\Networking\TankNetworkInit.js" Line="1" Column="1" />
-      <File FileName="Assets\Custom Assets\Scripts\ServCli.js" Line="1" Column="1" />
-      <File FileName="Assets\MasterCamera\MC Xtra Files\MasterCamera.js" Line="10" Column="37" />
-      <File FileName="Assets\Custom Assets\Scripts\Tank.js" Line="1" Column="1" />
-      <File FileName="Assets\Custom Assets\Scripts\HealthBar.js" Line="17" Column="3" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
